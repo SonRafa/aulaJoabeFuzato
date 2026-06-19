@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <!-- Google Tag Manager -->
@@ -12,49 +12,75 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-PRBXQRD9');</script>
     <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MC4FY83PLP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-MC4FY83PLP');
+    </script>
+
+    <meta name="google-site-verification" content="-5PipJlOXlP5qMW5sJtCxLj2IqCfkPwPBgEdvxOFNqM">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre | Music Club.</title>
+    <meta name="description" content="Conheça o projeto Music Club — dossiê musical de Rafael Santos Mendes Ferreira, aluno da UNIUBE.">
+    <title>Sobre | Music Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/menu.js" defer></script>
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
+    <a href="#conteudo-principal" class="skip-link">Ir para o conteúdo</a>
+
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRBXQRD9" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <header>
-        <header align="center">
-            <a href="https://uniube.br/"><img src="imagens/uniube/uniube-seeklogo.png" width="150"
-                    alt="Logo Uniube"></a>
+            style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
 
-
-        </header>
-        <h1> Sobre </h1>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="https://uniube.br/" target="_blank" rel="noopener noreferrer" class="logo-link">
+                <img src="imagens/uniube/uniube-seeklogo.png" width="150" alt="Logo da Universidade de Uberaba">
+                <span>Universidade de Uberaba</span>
+            </a>
+            <button type="button" class="menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false"
+                aria-controls="menu-principal">
+                <span class="hamburger" aria-hidden="true"></span>
+            </button>
+            <nav id="menu-principal" class="site-nav" aria-label="Menu principal">
+                <ul class="nav-list">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="artistas/artistas.html">Artistas</a></li>
+                    <li><a href="sobre.html" class="ativo">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="fotos.html">Galeria</a></li>
+                    <li><a href="links.html">Links Úteis</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <article>
-        <p><em>Este é um projeto feito unicamente por mim, Rafael Santos Mendes Ferreira.</em></p>
+    <main id="conteudo-principal">
+        <section class="page-hero">
+            <h1>Sobre</h1>
+        </section>
 
-        <hr>
+        <article>
+            <p><em>Este é um projeto feito unicamente por mim, Rafael Santos Mendes Ferreira.</em></p>
+            <p>Este site é um dossiê dos artistas, músicas e álbuns que fazem parte do meu gosto musical.</p>
+            <p>De Kanye West a Michael Jackson, de Tim Maia a Cartola, cada um desses artistas representa algo diferente
+                pra mim. Uma fase, uma emoção, uma memória.</p>
+            <p>Aqui você vai encontrar discografias, curiosidades e muito mais sobre os artistas que moldam o meu gosto
+                musical até hoje.</p>
+        </article>
+    </main>
 
-        <p>Este site é um dossiê dos artistas, músicas e álbuns que fazem parte do meu gosto musical.</p>
-
-        <p>De Kanye West a Michael Jackson, de Tim Maia a Cartola. cada um desses artistas representa algo diferente pra
-            mim. Uma fase, uma emoção, uma memória.</p>
-
-        <p>Aqui você vai encontrar discografias, curiosidades e muito mais sobre os artistas que moldam o meu gosto
-            musical até hoje.</p>
-    </article>
-
-    <hr>
-
-    <footer>
-        <p> Nome: Rafael Santos Mendes Ferreira <br>
-            RA: 5169922 <br>
-            Curso: Sistemas de Informação <br>
+    <footer class="site-footer">
+        <p>Nome: Rafael Santos Mendes Ferreira<br>
+            RA: 5169922<br>
+            Curso: Sistemas de Informação<br>
             UNIUBE</p>
-
-        <a href="index.html"> Voltar ao Início</a>
+        <p><a href="index.html">Voltar ao Início</a></p>
     </footer>
 </body>
 

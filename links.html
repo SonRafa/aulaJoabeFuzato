@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <!-- Google Tag Manager -->
@@ -12,55 +12,100 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-PRBXQRD9');</script>
     <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MC4FY83PLP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-MC4FY83PLP');
+    </script>
+
+    <meta name="google-site-verification" content="-5PipJlOXlP5qMW5sJtCxLj2IqCfkPwPBgEdvxOFNqM">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Links | Music Club. </title>
+    <meta name="description" content="Links úteis do Music Club — plataformas de música, letras, notícias e informações sobre artistas.">
+    <title>Links | Music Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/menu.js" defer></script>
 </head>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRBXQRD9" height="0" width="0"
-        style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
- 
-<header align="center">
-    <a href="https://uniube.br/"><img src="imagens/uniube/uniube-seeklogo.png" width="150" alt="Logo Uniube"></a>
-
-    <hr>
-</header>
 
 <body>
-    <h1> Links</h1>
-    <p> <em> Links que podem ser úteis para você!</em></p>
-    <hr>
+    <a href="#conteudo-principal" class="skip-link">Ir para o conteúdo</a>
 
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRBXQRD9" height="0" width="0"
+            style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
 
-    <h2> Plataformas de Música </h2>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="https://uniube.br/" target="_blank" rel="noopener noreferrer" class="logo-link">
+                <img src="imagens/uniube/uniube-seeklogo.png" width="150" alt="Logo da Universidade de Uberaba">
+                <span>Universidade de Uberaba</span>
+            </a>
+            <button type="button" class="menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false"
+                aria-controls="menu-principal">
+                <span class="hamburger" aria-hidden="true"></span>
+            </button>
+            <nav id="menu-principal" class="site-nav" aria-label="Menu principal">
+                <ul class="nav-list">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="artistas/artistas.html">Artistas</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="fotos.html">Galeria</a></li>
+                    <li><a href="links.html" class="ativo">Links Úteis</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <a href="https://open.spotify.com/" target="_blank">Spotify</a> |
-    <a href="https://music.apple.com/br/new" target="_blank"> Apple Music </a> |
-    <a href="https://www.deezer.com/br/" target="_blank"> Deezer</a> |
-    <a href="https://music.youtube.com/" target="_blank"> Youtube Music </a>
+    <main id="conteudo-principal">
+        <section class="page-hero">
+            <h1>Links</h1>
+            <p><em>Links que podem ser úteis para você!</em></p>
+        </section>
 
+        <section class="links-section">
+            <h2>Plataformas de Música</h2>
+            <div class="links-grid">
+                <a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer">Spotify</a>
+                <a href="https://music.apple.com/br/new" target="_blank" rel="noopener noreferrer">Apple Music</a>
+                <a href="https://www.deezer.com/br/" target="_blank" rel="noopener noreferrer">Deezer</a>
+                <a href="https://music.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube Music</a>
+            </div>
+        </section>
 
-    <h2> Site de letras </h2>
-    <a href="https://genius.com/" target="_blank">Genius</a> |
-    <a href="https://www.letras.mus.br/" target="_blank"> Letras.mus.br</a> |
-    <a href="https://www.vagalume.com.br/" target="_blank">Vagalume</a>
+        <section class="links-section">
+            <h2>Sites de Letras</h2>
+            <div class="links-grid">
+                <a href="https://genius.com/" target="_blank" rel="noopener noreferrer">Genius</a>
+                <a href="https://www.letras.mus.br/" target="_blank" rel="noopener noreferrer">Letras.mus.br</a>
+                <a href="https://www.vagalume.com.br/" target="_blank" rel="noopener noreferrer">Vagalume</a>
+            </div>
+        </section>
 
+        <section class="links-section">
+            <h2>Notícias e Críticas</h2>
+            <div class="links-grid">
+                <a href="https://rollingstone.com.br/" target="_blank" rel="noopener noreferrer">Rolling Stone Brasil</a>
+                <a href="https://pitchfork.com/" target="_blank" rel="noopener noreferrer">Pitchfork</a>
+                <a href="https://www.billboard.com/" target="_blank" rel="noopener noreferrer">Billboard</a>
+            </div>
+        </section>
 
+        <section class="links-section">
+            <h2>Informações sobre Artistas</h2>
+            <div class="links-grid">
+                <a href="https://www.last.fm/pt/home" target="_blank" rel="noopener noreferrer">Last.fm</a>
+                <a href="https://www.allmusic.com/" target="_blank" rel="noopener noreferrer">AllMusic</a>
+            </div>
+        </section>
+    </main>
 
-    <h2> Notícias e Críticas</h2>
-    <a href="https://rollingstone.com.br/" target="_blank">Rolling Stones Brasil</a> |
-    <a href="https://pitchfork.com/ " target="_blank">Pitchfork</a> |
-    <a href="https://www.billboard.com/" target="_blank">Billboard Brasil</a>
-
-
-    <h2> Informações sobre artistas </h2>
-    <a href="https://www.last.fm/pt/home" target="_blank"> Last.fm </a> |
-    <a href=" https://www.allmusic.com/" target="_blank"> AllMusic</a>
-
-    <hr>
-    <footer> <a href="index.html">Voltar ao Início</a></footer>
-
+    <footer class="site-footer">
+        <p><a href="index.html">Voltar ao Início</a></p>
+    </footer>
 </body>
 
 </html>

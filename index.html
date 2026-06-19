@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <!-- Google Tag Manager -->
@@ -19,62 +19,68 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-MC4FY83PLP');
     </script>
-    <!-- Google tag (gtag.js) -->
-    <meta name="google-site-verification" content="-5PipJlOXlP5qMW5sJtCxLj2IqCfkPwPBgEdvxOFNqM" />
+
+    <meta name="google-site-verification" content="-5PipJlOXlP5qMW5sJtCxLj2IqCfkPwPBgEdvxOFNqM">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Music Club. </title>
+    <meta name="description" content="Music Club — espaço dedicado à música e aos artistas que marcaram a história da cultura musical mundial e brasileira.">
+    <title>Home | Music Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/menu.js" defer></script>
 </head>
 
 <body>
+    <a href="#conteudo-principal" class="skip-link">Ir para o conteúdo</a>
+
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRBXQRD9" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+            style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <header align="center">
-        <a href="https://uniube.br/"><img src="imagens/uniube/uniube-seeklogo.png" width="150" alt="Logo Uniube"></a>
-
-        <hr>
-
-
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="https://uniube.br/" target="_blank" rel="noopener noreferrer" class="logo-link">
+                <img src="imagens/uniube/uniube-seeklogo.png" width="150" alt="Logo da Universidade de Uberaba">
+                <span>Universidade de Uberaba</span>
+            </a>
+            <button type="button" class="menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false"
+                aria-controls="menu-principal">
+                <span class="hamburger" aria-hidden="true"></span>
+            </button>
+            <nav id="menu-principal" class="site-nav" aria-label="Menu principal">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="ativo">Início</a></li>
+                    <li><a href="artistas/artistas.html">Artistas</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="fotos.html">Galeria</a></li>
+                    <li><a href="links.html">Links Úteis</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <h1> MUSIC CLUB </h1>
-    <em>
-        <p> Trazendo cultura e bom gosto!</p>
-    </em>
-    
+    <main id="conteudo-principal">
+        <section class="page-hero">
+            <h1>Music Club</h1>
+            <p><em>Trazendo cultura e bom gosto!</em></p>
+        </section>
 
-    <nav>
-        <a href="artistas/artistas.html">Artistas</a> |
-        <a href="sobre.html">Sobre</a> |
-        <a href="contato.html">Contato</a> |
-        <a href="fotos.html"> Galeria </a> |
-        <a href="links.html"> Links Úteis </a>
-    </nav>
-<hr>
-    <article>
-        <h2>Bem-vindo ao Music Club</h2>
-        <p>Este é um espaço dedicado à música e aos artistas que marcaram e continuam marcando a história da cultura
-            musical mundial e brasileira.</p>
+        <article>
+            <h2>Bem-vindo ao Music Club</h2>
+            <p>Este é um espaço dedicado à música e aos artistas que marcaram e continuam marcando a história da cultura
+                musical mundial e brasileira.</p>
+            <p>Aqui você vai encontrar informações sobre discografias, curiosidades e muito mais sobre artistas dos mais
+                variados gêneros — do rap ao samba, do soul ao rock, do funk ao jazz.</p>
+            <p>Explore as páginas, conheça os artistas e descubra algo novo!</p>
+        </article>
+    </main>
 
-        <p>Aqui você vai encontrar informações sobre discografias, curiosidades e muito mais sobre artistas dos mais
-            variados gêneros — do rap ao samba, do soul ao rock, do funk ao jazz.</p>
-
-     
-
-        <p>Explore as páginas, conheça os artistas e descubra algo novo!</p>
-    </article>
-
-    <hr>
-
-
-    <footer> Aluno: Rafael Santos Mendes Ferreira <br> RA: 5169922 </footer>
-
+    <footer class="site-footer">
+        <p>Aluno: Rafael Santos Mendes Ferreira<br>RA: 5169922</p>
+    </footer>
 
 </body>
 
