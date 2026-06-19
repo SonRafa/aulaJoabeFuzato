@@ -1,89 +1,139 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PRBXQRD9');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MC4FY83PLP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-MC4FY83PLP');
+    </script>
+
+    <meta name="google-site-verification" content="-5PipJlOXlP5qMW5sJtCxLj2IqCfkPwPBgEdvxOFNqM">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artistas | Music Club. </title>
+    <meta name="description"
+        content="Artistas em destaque no Music Club — rap, R&B, rock, jazz e artistas brasileiros.">
+    <title>Artistas | Music Club</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/menu.js" defer></script>
 </head>
 
 <body>
-    
-  <!-- Google Tag Manager (noscript) -->
+    <a href="#conteudo-principal" class="skip-link">Ir para o conteúdo</a>
+
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRBXQRD9" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    
-    <header align="center">
-        <a href="https://uniube.br/"><img src="../imagens/uniube/uniube-seeklogo.png " width="150" alt="Logo Uniube"></a>
+            style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
 
-        <hr>
-
-
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="https://uniube.br/" target="_blank" rel="noopener noreferrer" class="logo-link">
+                <img src="../imagens/uniube/uniube-seeklogo.png" width="150" alt="Logo da Universidade de Uberaba">
+                <span>Universidade de Uberaba</span>
+            </a>
+            <button type="button" class="menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false"
+                aria-controls="menu-principal">
+                <span class="hamburger" aria-hidden="true"></span>
+            </button>
+            <nav id="menu-principal" class="site-nav" aria-label="Menu principal">
+                <ul class="nav-list">
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="artistas.html" class="ativo">Artistas</a></li>
+                    <li><a href="../sobre.html">Sobre</a></li>
+                    <li><a href="../contato.html">Contato</a></li>
+                    <li><a href="../fotos.html">Galeria</a></li>
+                    <li><a href="../links.html">Links Úteis</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <h1> Artistas em Destaque </h1>
-    <hr>
+    <main id="conteudo-principal">
+        <section class="page-hero">
+            <h1>Artistas em Destaque</h1>
+        </section>
 
-    <ul>
-        <li> Rap / Hip-Hop </li>
-        <ul>
-            <li><a href="kanyewest.html">Kanye West</a> <strong>(cadastrado)</strong> </li>
-            <li><a href="tylerthecreator.html">Tyler, The Creator </a> <strong>(cadastrado)</strong></li>
-            <li><a href="childishgambino.html">Childish Gambino </a><strong>(cadastrado)</strong></li>
-            <li><a href="frankocean.html">Frank Ocean </a> <strong>(cadastrado)</strong></li>
-            <li><a href="">Playboi Carti</a></li>
-            <li><a href="">Drake</a></li>
-            <li><a href="">A$AP Rocky</a></li>
-            <li><a href="">Metro Boomin</a></li>
+        <section class="artist-list" aria-label="Lista de artistas por gênero">
+            <article class="artist-category">
+                <h2>Rap / Hip-Hop</h2>
+                <ul>
+                    <li><a href="kanyewest.html">Kanye West</a> </li>
+                    <li><a href="tylerthecreator.html">Tyler, The Creator</a> </li>
+                    <li><a href="childishgambino.html">Childish Gambino</a> </li>
+                    <li><a href="frankocean.html">Frank Ocean</a> </li>
+                    <li><a href="playboicarti.html">Playboi Carti</a> </li>
+                    <li><a href="drake.html">Drake</a></li>
+                    <li><a href="asaprocky.html">A$AP Rocky</a> </li>
+                    <li>Metro Boomin</li>
+                </ul>
+            </article>
 
-        </ul>
+            <article class="artist-category">
+                <h2>R&B / Soul</h2>
+                <ul>
+                    <li>Brent Faiyaz</li>
+                    <li>Steve Lacy</li>
+                    <li><a href="michaeljackson.html">Michael Jackson</a></li>
+                    <li>Marvin Gaye</li>
+                </ul>
+            </article>
 
-        <li> R&B / Soul </li>
-        <ul>
-            <li><a href="">Brent Faiyaz</a></li>
-            <li><a href="">Steve Lacy</a></li>
-            <li><a href="michaeljackson.html">Michael Jackson </a><strong>(cadastrado)</strong></li>
-            <li><a href="">Marvin Gaye</a></li>
-        </ul>
+            <article class="artist-category">
+                <h2>Rock</h2>
+                <ul>
+                    <li>The Strokes</li>
+                    <li>Cage The Elephant</li>
+                </ul>
+            </article>
 
-        <li> Rock </li>
-        <ul>
-            <li><a href="">The Strokes</a></li>
-            <li><a href="">Cage The Elephant</a></li>
-        </ul>
+            <article class="artist-category">
+                <h2>Jazz / Clássico</h2>
+                <ul>
+                    <li>Frank Sinatra</li>
+                </ul>
+            </article>
 
-        <li> Jazz / Clássico </li>
-        <ul>
-            <li><a href="">Frank Sinatra</a></li>
-        </ul>
-        <li> Brasileiros </li>
-        <ul>
-            <li> MPB / Samba </li>
-            <ul>
-                <li><a href="">Marina Sena</a></li>
-                <li><a href="">João Gomes</a></li>
-                <li><a href="">Jorge Ben Jor</a></li>
-                <li><a href="">Cartola</a></li>
-                <li><a href="">Seu Jorge</a></li>
-                <li><a href="">Tim Maia</a></li>
-            </ul>
-            <li> Hip-Hop </li>
-            <ul>
-                <li> <a href="bk.html">BK'</a> <strong>(cadastrado)</strong></li>
-            </ul>
-            <li> Funk / Trap BR </li>
-            <ul>
-                <li><a href="">Matuê</a></li>
-                <li><a href="">Alee</a></li>
-                <li><a href="">Brandão085</a></li>
+            <article class="artist-category">
+                <h2>Brasileiros</h2>
+                <h3>MPB / Samba</h3>
+                <ul>
+                    <li>Marina Sena</li>
+                    <li>João Gomes</li>
+                    <li>Jorge Ben Jor</li>
+                    <li>Cartola</li>
+                    <li>Seu Jorge</li>
+                    <li>Tim Maia</li>
+                </ul>
+                <h3>Hip-Hop</h3>
+                <ul>
+                    <li><a href="bk.html">BK'</a> </li>
+                </ul>
+                <h3>Funk / Trap BR</h3>
+                <ul>
+                    <li>Matuê</li>
+                    <li> <a href="alee.html">Alee</a></li>
+                    <li><a href="brandao085.html">Brandão085</a> </li>
+                </ul>
+            </article>
+        </section>
+    </main>
 
-            </ul>
-        </ul>
-    </ul>
-    <hr>
-
-    <footer><a href="../index.html">Início</a></footer>
+    <footer class="site-footer">
+        <p><a href="../index.html">Voltar ao Início</a></p>
+    </footer>
 </body>
 
 </html>
